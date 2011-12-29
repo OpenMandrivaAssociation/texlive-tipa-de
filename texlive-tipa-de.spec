@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa-de.doc.tar.x
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a translation of Fukui Rei's tipaman from the tipa
@@ -34,7 +32,6 @@ bundle.
 %doc %{_texmfdistdir}/doc/latex/tipa-de/tipaman2-de.tex
 %doc %{_texmfdistdir}/doc/latex/tipa-de/tipaman3-de.tex
 %doc %{_texmfdistdir}/doc/latex/tipa-de/tipaman4-de.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,5 +42,3 @@ bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
