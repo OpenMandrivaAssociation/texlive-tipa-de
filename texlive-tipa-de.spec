@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-tipa-de
 Version:	1.3
-Release:	10
+Release:	11
 Summary:	German translation of tipa documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/tipa/de
