@@ -3,7 +3,7 @@ Version:	22005
 Release:	2
 Summary:	German translation of tipa documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/tipa/de
+URL:		https://www.ctan.org/tex-archive/info/translations/tipa/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tipa-de.doc.r%{version}.tar.xz
